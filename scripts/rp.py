@@ -60,7 +60,7 @@ PRESETSDEF =[
 ATTNSCALE = 8 # Initial image compression in attention layers.
 
 fhurl = lambda url, label: r"""<a href="{}">{}</a>""".format(url, label)
-GUIDEURL = r"https://github.com/hako-mikan/sd-webui-regional-prompter"
+GUIDEURL = r"https://github.com/hako-mikan/sd-wui-regional-prompter"
 MATRIXURL = GUIDEURL + r"#2d-region-assignment"
 MASKURL = GUIDEURL + r"#mask-regions-aka-inpaint-experimental-function"
 PROMPTURL = GUIDEURL + r"/blob/main/prompt_en.md"

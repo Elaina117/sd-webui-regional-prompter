@@ -462,7 +462,7 @@ def split_dims(xs, height, width, self = None):
     rounding to the nearest value. But this proved inaccurate.
     What seems to be the actual operation is as follows:
     - Divide h,w by 8, rounding DOWN. 
-      (However, webui forces dims to be divisible by 8 unless set explicitly.)
+      (However, wui forces dims to be divisible by 8 unless set explicitly.)
     - For every new layer (of 4), divide both by 2 and round UP (then back up)
     - Multiply h*w to yield xs.
     There is no inverse function to this set of operations,
